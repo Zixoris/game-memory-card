@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+div#game {
+    margin-top: 20px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    background: #eee;
+    border: dotted 2px black;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 60px;
+    border: 1px solid #aaa;
+    margin: 20px;
+    text-align: center;
+    background-image: radial-gradient(white, yellow, blue);
+}
+
+.hidden {
+    display: none;
+}
+
+.header {
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
